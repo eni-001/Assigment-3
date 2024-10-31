@@ -14,7 +14,7 @@ namespace GameTest
 		TEST_METHOD(caseSensitivityTest)
 		{
 			// Test case with lowercase inputs
-			Assert::AreEqual("Invalid", determineWinner("Rock", "Scissors"));
+			Assert::AreEqual("Invalid", determineWinner("rock", "Scissors"));
 
 		}
 		TEST_METHOD(firstPlayerWinTest)
